@@ -16,6 +16,7 @@ public class ExampleMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("teastuff");
 
 	public static final Item MUG = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item TEABAG = new Item(new Item.Settings().group(ItemGroup.MISC));
 
 	@Override
 	public void onInitialize() {
@@ -30,5 +31,6 @@ public class ExampleMod implements ModInitializer {
 
 	public void createItems() {
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), MUG);
+		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), TEABAG);
 	}
 }
