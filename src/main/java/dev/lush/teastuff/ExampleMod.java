@@ -15,6 +15,8 @@ public class ExampleMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("teastuff");
 
+	public static final Item MUG = new Item(new Item.Settings().group(ItemGroup.MISC));
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -27,6 +29,6 @@ public class ExampleMod implements ModInitializer {
 	}
 
 	public void createItems() {
-		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), new Item(new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), MUG);
 	}
 }
