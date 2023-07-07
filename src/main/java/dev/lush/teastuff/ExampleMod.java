@@ -1,6 +1,10 @@
 package dev.lush.teastuff;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,5 +22,9 @@ public class ExampleMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+	}
+
+	public void createItems() {
+		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), new Item(new Item.Settings().group(ItemGroup.MISC)));
 	}
 }
