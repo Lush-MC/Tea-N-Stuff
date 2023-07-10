@@ -18,6 +18,7 @@ public class ExampleMod implements ModInitializer {
 	public static final Item MUG = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item TEABAG = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item BROWNSUGAR = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item MOLASSES = new Item(new Item.Settings().group(ItemGroup.MISC));
 
 	@Override
 	public void onInitialize() {
@@ -34,5 +35,6 @@ public class ExampleMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), MUG);
 		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), TEABAG);
 		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), BROWNSUGAR);
+		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), MOLASSES);
 	}
 }
