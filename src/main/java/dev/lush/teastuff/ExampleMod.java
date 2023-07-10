@@ -34,7 +34,7 @@ public class ExampleMod implements ModInitializer {
 	public void createItems() {
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), MUG);
 		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), TEABAG);
-		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), BROWNSUGAR);
-		Registry.register(Registry.ITEM, new Identifier("teastuff","teabag"), MOLASSES);
+		Registry.register(Registry.ITEM, new Identifier("teastuff","brown_sugar"), BROWNSUGAR);
+		Registry.register(Registry.ITEM, new Identifier("teastuff","molasses"), MOLASSES);
 	}
 }

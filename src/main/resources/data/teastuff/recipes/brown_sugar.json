@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"teastuff:molasses"},
+        {"item":"minecraft:sugar"}
+    ],
+
+    "result": {
+      "item": "teastuff:brown_sugar",
+      "count": 1
+    }
+  }
+
