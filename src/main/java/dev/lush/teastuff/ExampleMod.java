@@ -9,13 +9,15 @@ import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import dev.lush.teastuff.items.MugItem;
+
 public class ExampleMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("teastuff");
 
-	public static final Item MUG = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item MUG = new MugItem(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item TEABAG = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item BROWNSUGAR = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item MOLASSES = new Item(new Item.Settings().group(ItemGroup.MISC));
