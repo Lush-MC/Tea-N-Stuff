@@ -20,10 +20,10 @@ For the mod [Eating Animation](https://modrinth.com/mod/eating-animation) by the
 
 - [ ] **Sandwiches**
 
-    - [ ] Sandwich'o'Air
-    - [ ] Bacon Lettuce Sandwich
-    - [ ] Bacon Lettuce Tomato Sandwich
-    - [x] Bacon Lettuce Pickle Sandwich
-    - [ ] Bacon Lettuce Tomato Cheese Sandwich
-    - [x] Bacon Lettuce Cheese Pickle Sandwich
-    - [x] Bacon Lettuce Tomato Cheese Pickle Sandwich
+    - ![](./assets/githubx.png) Sandwich'o'Air
+    - ![](./assets/githubx.png) Bacon Lettuce Sandwich
+    - ![](./assets/githubx.png) Bacon Lettuce Tomato Sandwich
+    - ![](./assets/githuby.png) Bacon Lettuce Pickle Sandwich
+    - ![](./assets/githubx.png) Bacon Lettuce Tomato Cheese Sandwich
+    - ![](./assets/githuby.png) Bacon Lettuce Cheese Pickle Sandwich
+    - ![](./assets/githuby.png) Bacon Lettuce Tomato Cheese Pickle Sandwich
