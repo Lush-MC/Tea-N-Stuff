@@ -4,13 +4,13 @@
 
 ### Sandwiches
 
-- Sandwich'o'Air
-- Bacon Lettuce Sandwich
-- Bacon Lettuce Tomato Sandwich
-- Bacon Lettuce Pickle Sandwich
-- Bacon Lettuce Tomato Cheese Sandwich
-- Bacon Lettuce Cheese Pickle Sandwich
-- Bacon Lettuce Tomato Cheese Pickle Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_air.png) Sandwich'o'Air
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_bl.png) Bacon Lettuce Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_blt.png) Bacon Lettuce Tomato Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_blp.png) Bacon Lettuce Pickle Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_bltc.png) Bacon Lettuce Tomato Cheese Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_blcp.png) Bacon Lettuce Cheese Pickle Sandwich
+- ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_bltcp.png) Bacon Lettuce Tomato Cheese Pickle Sandwich
 
 ## Mod Support Megalist
 
@@ -20,10 +20,10 @@ For the mod [Eating Animation](https://modrinth.com/mod/eating-animation) by the
 
 - [ ] **Sandwiches**
 
-- [ ] Sandwich'o'Air
-- [ ] Bacon Lettuce Sandwich
-- [ ] Bacon Lettuce Tomato Sandwich
-- [x] Bacon Lettuce Pickle Sandwich
-- [ ] Bacon Lettuce Tomato Cheese Sandwich
-- [x] Bacon Lettuce Cheese Pickle Sandwich
-- [x] Bacon Lettuce Tomato Cheese Pickle Sandwich
+    - [ ] Sandwich'o'Air
+    - [ ] Bacon Lettuce Sandwich
+    - [ ] Bacon Lettuce Tomato Sandwich
+    - [x] Bacon Lettuce Pickle Sandwich
+    - [ ] Bacon Lettuce Tomato Cheese Sandwich
+    - [x] Bacon Lettuce Cheese Pickle Sandwich
+    - [x] Bacon Lettuce Tomato Cheese Pickle Sandwich
