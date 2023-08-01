@@ -15,6 +15,8 @@ public class ItemRegistrator {
 	public static final Item CHOCOLATE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(FoodComponents.CHOCOLATE));
 	public static final Item CHOCOLATE_POWDER = new MugItem(new Item.Settings().group(ItemGroup.MISC));
     public static final Item BREAD_SLICE = new MugItem(new Item.Settings().group(ItemGroup.FOOD).food(FoodComponents.BREAD_SLICE));
+    public static final Item COCOA_BUTTER = new Item(new Item.Settings().group(ItemGroup.MISC));
+
 
 
     /* Sandwiches */
@@ -46,6 +48,7 @@ public class ItemRegistrator {
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "cup"), CUP);
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "mug"), MUG);
 		Registry.register(Registry.ITEM, new Identifier("teastuff", "teabag"), TEABAG);
+        Registry.register(Registry.ITEM, new Identifier("teastuff","cocoa_butter"), COCOA_BUTTER);
 
         /* Sandwiches */
 
@@ -56,5 +59,6 @@ public class ItemRegistrator {
         Registry.register(Registry.ITEM, new Identifier("teastuff", "sandwich_o_bltcp"), BACON_LETTUCE_TOMATO_CHEESE_PICKLE_SANDWICH);
         Registry.register(Registry.ITEM, new Identifier("teastuff", "sandwich_o_blcp"), BACON_LETTUCE_CHEESE_PICKLE_SANDWICH);
         Registry.register(Registry.ITEM, new Identifier("teastuff", "sandwich_o_blp"), BACON_LETTUCE_PICKLE_SANDWICH);
+
 	}
 }
