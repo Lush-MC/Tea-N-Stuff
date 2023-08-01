@@ -26,6 +26,7 @@ public class ExampleMod implements ModInitializer {
 	public static final Item CUP = new MugItem(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item CHOCOLATE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(FoodComponents.CHOCOLATE));
 	public static final Item CHOCOLATE_POWDER = new MugItem(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item COCOA_BUTTER = new MugItem(new Item.Settings().group(ItemGroup.MISC));
 	
 	
 	@Override
@@ -47,5 +48,6 @@ public class ExampleMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("teastuff","cup"), CUP);
 		Registry.register(Registry.ITEM, new Identifier("teastuff","chocolate"), CHOCOLATE);
 		Registry.register(Registry.ITEM, new Identifier("teastuff","chocolate_powder"), CHOCOLATE_POWDER);
+		Registry.register(Registry.ITEM, new Identifier("teastuff","cocoa_butter"), COCOA_BUTTER);
 	}
 }

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "result": "teastuff:cocoa_butter",
+    "experience": 0.2,
+    "cookingtime": 100
+  }
+
