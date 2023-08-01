@@ -2,6 +2,10 @@
 
 ## Current Foods List
 
+### Vegetables
+
+- Pickles
+
 ### Sandwiches
 
 - ![](./src/main/resources/assets/teastuff/textures/item/sandwiches/sandwich_o_air.png) Sandwich'o'Air
@@ -14,11 +18,47 @@
 
 ## Mod Support Megalist
 
+### Mod Ingredients
+
+Ingredients from Croptopia are supported (as long as recipes exist to accomodate them);
+
+#### Croptopia Ingredients Included
+
+- ![](./assets/githubx.png) Artichoke
+- ![](./assets/githubx.png) Asparagus
+- ![](./assets/githubx.png) Broccoli
+- ![](./assets/githubx.png) Cabbage
+- ![](./assets/githubx.png) Celery
+- ![](./assets/githubx.png) Cucumber
+- ![](./assets/githubx.png) Eggplant
+- ![](./assets/githubx.png) Garlic
+- ![](./assets/githubx.png) Ginger
+- ![](./assets/githubx.png) Green Beans
+- ![](./assets/githubx.png) Green Onions
+- ![](./assets/githubx.png) Kale
+- ![](./assets/githubx.png) Leek
+- ![](./assets/githuby.png) Lettuce
+- ![](./assets/githubx.png) Mustard
+- ![](./assets/githubx.png) Radish
+- ![](./assets/githubx.png) Rutabaga
+- ![](./assets/githubx.png) Soybean
+- ![](./assets/githubx.png) Spinach
+- ![](./assets/githubx.png) Squash
+- ![](./assets/githubx.png) Sweet Potato
+- ![](./assets/githuby.png) Tomato
+- ![](./assets/githubx.png) Turnip
+- ![](./assets/githubx.png) Yam
+- ![](./assets/githubx.png) Zucchini
+- ![](./assets/githubx.png) Cauliflower
+- ![](./assets/githubx.png) Onion
+- ![](./assets/githubx.png) Rhubarb
+- ![](./assets/githubx.png) Tomatillo
+
 ### Eating Animations
 
 For the mod [Eating Animation](https://modrinth.com/mod/eating-animation) by theoness1.
 
-- [ ] **Sandwiches**
+- ![](./assets/githubx.png) **Sandwiches**
 
     - ![](./assets/githubx.png) Sandwich'o'Air
     - ![](./assets/githubx.png) Bacon Lettuce Sandwich

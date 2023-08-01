@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "teastuff:block/jar",
+		"1": "teastuff:block/pickling_juice/water_pickling_juice",
+		"particle": "teastuff:block/jar"
+	},
+	"elements": [
+		{
+			"from": [4.5, 0, 4.5],
+			"to": [11.5, 8.5, 11.5],
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 4.5], "texture": "#0"},
+				"east": {"uv": [3.5, 0, 7, 4.5], "texture": "#0"},
+				"south": {"uv": [0, 4.5, 3.5, 9], "texture": "#0"},
+				"west": {"uv": [3.5, 4.5, 7, 9], "texture": "#0"},
+				"up": {"uv": [10.5, 3.5, 7, 0], "texture": "#0"},
+				"down": {"uv": [10.5, 3.5, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 8.5, 6],
+			"to": [10, 10.5, 10],
+			"faces": {
+				"north": {"uv": [9, 9, 11, 10], "texture": "#0"},
+				"east": {"uv": [7, 9, 9, 10], "texture": "#0"},
+				"south": {"uv": [7, 8, 9, 9], "texture": "#0"},
+				"west": {"uv": [7, 7, 9, 8], "texture": "#0"},
+				"up": {"uv": [11, 9, 9, 7], "texture": "#0"},
+				"down": {"uv": [10.5, 3.5, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 9, 5.5],
+			"to": [10.5, 11, 10.5],
+			"faces": {
+				"north": {"uv": [11, 10.5, 13.5, 11.5], "texture": "#0"},
+				"east": {"uv": [11, 11.5, 13.5, 12.5], "texture": "#0"},
+				"south": {"uv": [11, 13.5, 13.5, 14.5], "texture": "#0"},
+				"west": {"uv": [11, 12.5, 13.5, 13.5], "texture": "#0"},
+				"up": {"uv": [11, 8, 13.5, 10.5], "texture": "#0"},
+				"down": {"uv": [8.5, 12, 11, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "liquid",
+			"from": [5.5, 1, 5.5],
+			"to": [10.5, 7, 10.5],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 6], "texture": "#1"},
+				"east": {"uv": [0, 6, 5, 12], "texture": "#1"},
+				"south": {"uv": [5, 1, 10, 7], "texture": "#1"},
+				"west": {"uv": [10, 1, 15, 7], "texture": "#1"},
+				"up": {"uv": [10, 7, 15, 12], "texture": "#1"},
+				"down": {"uv": [5, 7, 10, 12], "texture": "#1"}
+			}
+		}
+	]
+}
