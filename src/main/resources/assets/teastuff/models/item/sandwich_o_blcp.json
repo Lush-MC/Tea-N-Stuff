@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "teastuff:item/sandwiches/sandwich_o_blcp"
+    },
+
+    "overrides": [
+        {
+          "predicate": {
+            "eating": 1,
+            "eat": 0.3
+          },
+          "model": "teastuff:item/sandwich_o_blcp_eating_0"
+        },
+        {
+          "predicate": {
+            "eating": 1,
+            "eat": 0.55
+          },
+          "model": "teastuff:item/sandwich_o_blcp_eating_1"
+        },
+    
+        {
+          "predicate": {
+    
+            "eating": 1,
+            "eat": 0.80
+          },
+          "model": "teastuff:item/sandwich_o_blcp_eating_2"
+        }
+      ]
+  }

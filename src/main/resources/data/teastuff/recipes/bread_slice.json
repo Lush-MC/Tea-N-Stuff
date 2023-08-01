@@ -1,0 +1,12 @@
+  {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"tag": "c:sandwich/bread"}
+    ],
+    "result": {
+      "item": "teastuff:bread_slice",
+      "count": 2
+    }
+  }
+  
+  
